@@ -28,13 +28,14 @@ main h2:first-of-type {
 }
 
 #profile {
+  box-sizing: content-box;
+  height: 200px;
+  width: 200px;
+  padding: 5px;
+
   float: right;
   top: 300px;
   right: 300px;
-
-  /*height: 200px;
-  width: 200px;*/
-  padding: 5px;
 
   border: 10px solid #77DD99;
   border-radius: 50%;
